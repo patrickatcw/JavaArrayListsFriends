@@ -45,6 +45,12 @@ public class Main {
         System.out.println(Arrays.toString(new ArrayList[]{friends}));
         //results; [[Teena, Jim, Mitch, Bob, Sara]]
 
+        //adding another friend object
+        friends.add("Bjon");
+
+        //printing new object friend
+        System.out.println(friends.get(5));
+        //result; Bjon
     }
 
 }
