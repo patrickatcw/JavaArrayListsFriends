@@ -61,6 +61,17 @@ public class Main {
         System.out.println(Arrays.toString(new ArrayList[]{friends}));
         //result; [[Teena, Mitch, Bob, Sara, Bjon]]
 
+        /*
+        If you don’t know the index of the object you want to remove,
+        but you have a reference to the actual object, you can pass the
+        object to the remove method:
+         */
+        friends.remove("Bob");
+        System.out.println(Arrays.toString(new ArrayList[]{friends}));
+        //result; [[Teena, Mitch, Sara, Bjon]]
+
+
+
     }
 
 }
