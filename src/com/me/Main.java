@@ -56,6 +56,10 @@ public class Main {
         System.out.println(Arrays.toString(new ArrayList[]{friends}));
         //result; [[Teena, Jim, Mitch, Bob, Sara, Bjon]]
 
+        //remove a specific element based on the index number, use the remove method;
+        friends.remove(1);
+        System.out.println(Arrays.toString(new ArrayList[]{friends}));
+        //result; [[Teena, Mitch, Bob, Sara, Bjon]]
 
     }
 
