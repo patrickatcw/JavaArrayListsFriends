@@ -42,6 +42,9 @@ public class Main {
         Sara
         */
 
+        System.out.println(Arrays.toString(new ArrayList[]{friends}));
+        //results; [[Teena, Jim, Mitch, Bob, Sara]]
+
     }
 
 }
