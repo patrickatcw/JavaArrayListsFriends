@@ -28,6 +28,19 @@ public class Main {
         friends.add("Bob");
         friends.add("Sara");
 
+        System.out.println(friends.get(0));
+        System.out.println(friends.get(1));
+        System.out.println(friends.get(2));
+        System.out.println(friends.get(3));
+        System.out.println(friends.get(4));
+        //results
+        /*
+        Teena
+        Jim
+        Mitch
+        Bob
+        Sara
+        */
 
     }
 
