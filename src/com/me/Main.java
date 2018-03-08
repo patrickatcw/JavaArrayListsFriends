@@ -70,7 +70,10 @@ public class Main {
         System.out.println(Arrays.toString(new ArrayList[]{friends}));
         //result; [[Teena, Mitch, Sara, Bjon]]
 
-
+        //clear entire array
+        friends.clear();
+        System.out.println(Arrays.toString(new ArrayList[]{friends}));
+       //results;[[]]
 
     }
 
