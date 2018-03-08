@@ -51,6 +51,12 @@ public class Main {
         //printing new object friend
         System.out.println(friends.get(5));
         //result; Bjon
+
+        //printing the new whole list
+        System.out.println(Arrays.toString(new ArrayList[]{friends}));
+        //result; [[Teena, Jim, Mitch, Bob, Sara, Bjon]]
+
+
     }
 
 }
